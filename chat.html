@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>chat</title>
+    <link rel="stylesheet" href="./styleChat.css">
+    <script src="./script.js" defer></script>
+</head>
+<body id="cuerpo">
+    <header>
+        <nav>
+        <a href="#" class="menu">
+            <img src="https://iconape.com/wp-content/png_logo_vector/shakira-logo.png" alt="" class="logo" />
+        </a>
+        <div class="container">
+                <div class="cuadrado">
+                <ul class="principal">
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="datos.html">Datos</a></li>
+                    <li><a href="cronologia.html">Hoja de vida</a></li>
+                    <li><a href="material.html">Material de interés</a></li>
+                    <li><a class="active" href="chat.html">Chat</a></li>
+                </ul>
+                </div>
+        </div>
+        </nav>
+        <section></section>
+    </header>
+
+    <main> 
+        <form method="get" id="formChat">
+            <fieldset>
+                <legend>Chat</legend>
+                <label for="txtNombre">Nombre remitente</label>
+                <input type="text" name="nombre" id="txtNombre">
+                <br>
+                <span class="error" id="errorNombre">Error, complete el campo.</span>
+                <br>
+                <label for="txtMensaje">Mensaje</label>
+                <br>
+                <textarea name="mensaje" id="txtMensaje" cols="30" rows="6"></textarea>
+                <br>
+                <span class="error" id="errorMensaje">Error, complete el campo.</span>
+                <br>
+                <input type="submit" name="enviar" value="Enviar ">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <nav>
+        <hr/>
+        <div id="copyright">
+            <p>Copyright &copy; 2024</p>
+            <p>All right reserved</p>
+        </div>
+        
+        <div id="social"></div>
+            <a href="https://www.facebook.com/shakira/?locale=es_LA" target ="_blank" id = "facebook">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5kfC2uFZct-QicMScCesyRCdMt_4YgtX3bQ&s" height = "25px" alt = "facebook">
+            </a>
+
+            <a href="https://www.instagram.com/shakira/?hl=es" target ="_blank" title ="instagram">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQQtpHFFaMw_0RtE4I7PodWeMdgMhXcZgnYw&s" height = "25px" alt = "instagram">
+            </a>
+        </div>
+    </nav>
+    <footer>
+</body>
+</html>
